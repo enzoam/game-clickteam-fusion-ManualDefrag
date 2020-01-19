@@ -1,0 +1,15 @@
+Enzo Augusto Marchiorato
+Jonattan Debur
+Jhonatan Souza Cordeiro 
+
+MANUAL DEFRAG
+ (THE GRID)
+
+Em um momento que não precisamos mais nos incomodar com a organização física de um disco rígido para PC, os mais velhinhos de informática lembram o tempo que perdiam fazendo e refazendo o processo de desfragmentação de disco, muitas vezes obrigados, devido a lentidão que assolava o acesso a dados, com o gerenciamento pobre de bytes da época dos primeiros sistemas operacionais. 
+Uma ferramenta muito utilizada para solucionar este problema, mesmo que de forma temporária, era o aplicativo DEFRAG, que ordenadamente localizava bytes espalhados no disco rígido e os reindexava de forma a tornar o acesso a eles mais ágil. Quando existia um problema na posição física do arquivo marcava com um bloco vermelho indicando o famoso BAD BLOCK.
+Baseado nisto, desenvolvemos a ideia de um game simples porém desafiador, que coloca o jogador na pele do ponteiro responsável pela organização dos BYTES, espalhados em um disco rígido e em estado de caos total, que precisa ser organizado enquanto utilizado. [IMAGEM 1]
+O objetivo do jogador é construir linhas completas com as cores iguais, sem sobrepor os BYTES representados pelos blocos VERDES (COMPLETOS) e AMARELHOS (PARCIAIS), pois quando sobrepostos podem gerar blocos VERMELHOS (BAD BLOCKS) que não podem mais ser utilizados na organização, atrapalhando e reiniciando a movimentação do BLOCO AZUL (PONTEIRO / JOGADOR). [IMAGEM 2]
+Ganha o jogo quem completar todas as linhas com os blocos que sobraram.
+O movimento do jogador baseia-se apenas nos direcionais (CIMA/BAIXO/ESQUERDA/DIREITA) e o movimento dos blocos VERDES E AMARELOS dependem da direção em que são empurrados. [IMAGEM 3]
+
+
